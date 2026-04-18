@@ -1,0 +1,11 @@
+{
+  "editor.rulers": [80, 120],
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, ColumnLimit: 120 }",
+  "C_Cpp.clang_tidy.enabled": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+}

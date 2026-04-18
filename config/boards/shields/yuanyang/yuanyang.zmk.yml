@@ -1,10 +1,10 @@
-file_format: "2"
-id: my_corne_42
-name: My Corne 42
+file_format: "1"
+id: yuanyang_42
+name: YUANYANG
 type: shield
 url: https://github.com/Gofran/zmk-Gofran-SplitKB
 requires:
   - zmk_split
 siblings:
-  - my_corne_42_left
-  - my_corne_42_right
+  - yuanyang_left
+  - yuanyang_right
