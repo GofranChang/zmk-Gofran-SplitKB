@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 Pete Johanson
+ * Copyright (c) 2022 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
  */
@@ -7,7 +7,7 @@
 #include "yuanyang.dtsi"
 
 &default_transform {
-	col-offset = <6>;
+    col-offset = <6>;
 };
 
 &kscan0 {
@@ -19,13 +19,4 @@
         , <&pro_micro 20  GPIO_ACTIVE_HIGH>
         , <&pro_micro 21  GPIO_ACTIVE_HIGH>
         ;
-};
-/ {
-    chosen {
-      zmk,battery = &vbatt;
-    };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
-    };
 };
