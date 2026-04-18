@@ -21,8 +21,14 @@
 include:
   - board: nice_nano_v2
     shield: yuanyang_left
+
   - board: nice_nano_v2
     shield: yuanyang_right
+
+  - board: nice_nano_v2
+    shield: corne_tp_right
+    cmake-args: -DDTS_EXTRA_CPPFLAGS=-DMOUSE_PS2_ALT_PINS
+    artifact-name: corne_tp_right-nice_nano_v2-scl_D1_sda_D0-zmk
 
   - board: nice_nano_v2
     shield: settings_reset
